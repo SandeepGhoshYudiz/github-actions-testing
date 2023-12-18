@@ -8,6 +8,6 @@ class UnitTest extends TestCase
     public function test_add_numbers()
     {
         $result = add_numbers(2, 3);
-        $this->assertEquals(8, $result);
+        $this->assertEquals(5, $result);
     }
 }
