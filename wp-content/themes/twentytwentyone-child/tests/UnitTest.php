@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 
 require_once __DIR__ . '/../functions.php';
-class FunctionsTest extends TestCase
+class UnitTest extends TestCase
 {
     public function test_add_numbers()
     {
