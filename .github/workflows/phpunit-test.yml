@@ -18,3 +18,4 @@ jobs:
 
       - name: Run PHPUnit Tests
         run: phpunit
+        working-directory: ./wp-content/themes/twentytwentyone-child
