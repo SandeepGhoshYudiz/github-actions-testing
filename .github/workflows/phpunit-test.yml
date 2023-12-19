@@ -17,5 +17,5 @@ jobs:
         run: composer install
 
       - name: Run PHPUnit Tests
-        run: phpunit
+        run: phpunit --testdox
         working-directory: ./wp-content/themes/watch-wise-child
