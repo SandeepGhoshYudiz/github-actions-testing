@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-require_once __DIR__ . '/../functions.php';
+require_once __DIR__ . '/../functions-unit-testing.php';
 class UnitTest extends TestCase
 {
     public function test_add_numbers()
