@@ -34,7 +34,7 @@ class CustomCustomerRegistrationTest extends TestCase
             'address_line1' => '123 Main St',
             'city' => 'Anytown',
             'postal_code' => '12345',
-            // 'country' is missing
+            'country'  => '',
         ];
 
         $this->expectException(Exception::class);
